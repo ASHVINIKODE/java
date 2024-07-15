@@ -18,6 +18,7 @@ public class alldatatypes {
         // System.out.print(a);
         // System.out.print(b);
         //primitive data type starts with small letter and non primitive data type starts with capital letter.
+        //values are literal.
         System.out.println(a);
         System.out.println(c);
         System.out.println(result);
