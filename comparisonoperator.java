@@ -9,12 +9,19 @@ public class comparisonoperator {
         System.out.println(a > b);
         System.out.println(a >= b);
         System.out.println(a <= b);
-        //assignment operator
+        // assignment operator
         a = a + b;
         System.out.println(a);
-        int c=5;
-        int d=7;
-        c+=d;
-        System.out.println(d);
+        int c = 5;
+        int d = 7;
+        // c = c + d;
+        // c+=d;
+        // c-=d;
+        // c/=d;
+        // c*=d;
+        c %= d;
+
+        System.out.println(c);
+
     }
 }
