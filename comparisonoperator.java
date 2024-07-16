@@ -22,6 +22,10 @@ public class comparisonoperator {
         c %= d;
 
         System.out.println(c);
+//logical operator- &&(and),||(or),!(not);
+     System.out.println(a==b && a==c);
+     System.out.println(a==d || a==b);
+     System.out.println(!(a==d || a==b));
 
     }
 }
